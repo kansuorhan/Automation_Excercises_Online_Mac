@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import utilities.TestCaseBeforeAfterClass;
 
-public class TestCaseC07_Verify_Test_Cases_Page extends TestCaseBeforeAfterClass {
+public class TestCase07_Verify_Test_Cases_Page extends TestCaseBeforeAfterClass {
     /*
     1. Launch browser
     2. Navigate to url 'http://automationexercise.com'
