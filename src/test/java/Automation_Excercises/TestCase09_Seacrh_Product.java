@@ -44,7 +44,7 @@ public class TestCase09_Seacrh_Product extends TestCaseBeforeAfterClass {
 
         //7
         WebElement searchProduct = driver.findElement(By.xpath("//h2[text()='All Products']"));
-        Assert.assertTrue(searchProduct.);
+        Assert.assertTrue(searchProduct.getText() == "ALL PRODUCTS");
 
         //8
         List<WebElement> allInputNames = driver.findElements(By.xpath("//h2"));
