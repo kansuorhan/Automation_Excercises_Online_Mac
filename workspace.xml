@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2cd15ba-012c-4439-81d9-cf5084d09e4a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Automation_Excercises/TestCase09_Seacrh_Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Automation_Excercises/TestCase09_Seacrh_Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Automation_Excercises/TestCaseC07_Verify_Test_Cases_Page.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2F4VMDOOqrOn6UGJqIog4Sk7UTP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.TestCase09_Seacrh_Product">
+    <configuration name="TestCase05_Register_Userwith_Existing_Email" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Excercises_Online_Mac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Automation_Excercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Automation_Excercises" />
+      <option name="MAIN_CLASS_NAME" value="Automation_Excercises.TestCase05_Register_Userwith_Existing_Email" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase06_Contact_Us_Form" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Excercises_Online_Mac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Automation_Excercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Automation_Excercises" />
+      <option name="MAIN_CLASS_NAME" value="Automation_Excercises.TestCase06_Contact_Us_Form" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase07_Verify_Test_Cases_Page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Excercises_Online_Mac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Automation_Excercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Automation_Excercises" />
+      <option name="MAIN_CLASS_NAME" value="Automation_Excercises.TestCase07_Verify_Test_Cases_Page" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase09_Seacrh_Product" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Excercises_Online_Mac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Automation_Excercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Automation_Excercises" />
+      <option name="MAIN_CLASS_NAME" value="Automation_Excercises.TestCase09_Seacrh_Product" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase09_Seacrh_Product.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Excercises_Online_Mac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Automation_Excercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Automation_Excercises" />
+      <option name="MAIN_CLASS_NAME" value="Automation_Excercises.TestCase09_Seacrh_Product" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestCase09_Seacrh_Product" />
+        <item itemvalue="JUnit.TestCase09_Seacrh_Product.test" />
+        <item itemvalue="JUnit.TestCase07_Verify_Test_Cases_Page" />
+        <item itemvalue="JUnit.TestCase06_Contact_Us_Form" />
+        <item itemvalue="JUnit.TestCase05_Register_Userwith_Existing_Email" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2cd15ba-012c-4439-81d9-cf5084d09e4a" name="Changes" comment="" />
+      <created>1663751298119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663751298119</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

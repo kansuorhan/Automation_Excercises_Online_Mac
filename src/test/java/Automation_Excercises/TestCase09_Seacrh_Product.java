@@ -3,8 +3,12 @@ package Automation_Excercises;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import utilities.TestCaseBeforeAfterClass;
+
+import java.security.Key;
+import java.util.List;
 
 public class TestCase09_Seacrh_Product extends TestCaseBeforeAfterClass {
 
@@ -27,6 +31,24 @@ public class TestCase09_Seacrh_Product extends TestCaseBeforeAfterClass {
         //3
         WebElement category = driver.findElement(By.xpath("//h2[text()='Category']"));
         Assert.assertTrue(category.isDisplayed());
+
+        //4
+        driver.findElement(By.xpath("//i[@class='material-icons card_travel']")).click();
+
+        //5
+        WebElement allProducts = driver.findElement(By.xpath("//h2[text()='All Products']"));
+        Assert.assertEquals(allProducts.getText(),"ALL PRODUCTS");
+
+        //6
+        driver.findElement(By.xpath("//input[@id='search_product']")).sendKeys("tshirt" + Keys.ENTER);
+
+        //7
+        WebElement searchProduct = driver.findElement(By.xpath("//h2[text()='All Products']"));
+        Assert.assertTrue(searchProduct.);
+
+        //8
+        List<WebElement> allInputNames = driver.findElements(By.xpath("//h2"));
+        Assert.assertTrue(allInputNames.contains("tshirt"));
 
 
     }
