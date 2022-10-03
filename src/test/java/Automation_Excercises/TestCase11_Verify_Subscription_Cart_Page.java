@@ -28,7 +28,7 @@ public class TestCase11_Verify_Subscription_Cart_Page extends TestCaseBeforeAfte
 
     //3
     WebElement category = driver.findElement(By.xpath("//h2[text()='Category']"));
-        Assert.assertTrue(category.isDisplayed());
+    Assert.assertTrue(category.isDisplayed());
 
 
     //4
