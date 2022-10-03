@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import utilities.TestCaseBeforeAfterClass;
 
+import java.util.List;
+
 public class TestCase12_Add_Products_in_Cart extends TestCaseBeforeAfterClass {
     @Test
     public void test() throws Exception {
@@ -42,6 +44,7 @@ public class TestCase12_Add_Products_in_Cart extends TestCaseBeforeAfterClass {
 
         Actions actions = new Actions(driver);
         actions.moveToElement(product1).perform();
+        String product1Price = driver.findElement(By.xpath("(//h2)[4]")).getText();
         Thread.sleep(2000);
         actions.moveToElement(productSelect).click().perform();
 
@@ -52,6 +55,7 @@ public class TestCase12_Add_Products_in_Cart extends TestCaseBeforeAfterClass {
         WebElement product2 = driver.findElement(By.xpath("(//*[@class='productinfo text-center'])[2]"));
         WebElement productSelect2 = driver.findElement(By.xpath("(//*[@class='fa fa-shopping-cart'])[4]"));
         actions.moveToElement(product2).perform();
+        String product2Price = driver.findElement(By.xpath("(//h2)[6]")).getText();
         Thread.sleep(2000);
         actions.moveToElement(productSelect2).click().perform();
 
@@ -60,7 +64,18 @@ public class TestCase12_Add_Products_in_Cart extends TestCaseBeforeAfterClass {
         Thread.sleep(2000);
 
         //9
+        List<WebElement> productList = driver.findElements(By.xpath("//img[@class='product_image']"));
+        Assert.assertEquals(2,productList.size());
 
+        //10
+        String cart1Price = driver.findElement(By.xpath("(//td[3]/p)[1]")).getText();
+        String cart2Price = driver.findElement(By.xpath("(//td[3]/p)[2]")).getText();
+
+        System.out.printf(product1Price);
+        System.out.println(cart1Price);
+
+        Assert.assertEquals(product1Price,cart1Price);
+        Assert.assertEquals(product2Price,cart2Price);
 
     }
 }
