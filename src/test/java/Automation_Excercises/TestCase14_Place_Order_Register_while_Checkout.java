@@ -174,6 +174,31 @@ public class TestCase14_Place_Order_Register_while_Checkout extends TestCaseBefo
 
         driver.findElement(By.xpath("//*[text()='Place Order']")).click();
 
+        //16
+        driver.findElement(By.xpath("/*[@name=‘name_on_card’]")).sendKeys("Orhan");
+
+        driver.findElement(By.xpath("/*[@name=‘card_number’]")).sendKeys("1234567891011121");
+
+        driver.findElement(By.xpath("//*[@name=‘cvc’]")).sendKeys("311");
+
+        driver.findElement(By.xpath("//*[@name=‘expiry_month")).sendKeys("09");
+
+        driver.findElement(By.xpath("//*[@name=‘expiry_year’]")).sendKeys("2026");
+
+        //17
+        driver.findElement(By.xpath("//*[@id=‘submit’]")).click();
+        Thread.sleep(2000);
+
+        //18
+        WebElement successText = driver.findElement(By.xpath("(//*[@class='alert-success alert'])[1]"));
+        Assert.assertTrue(successText.isDisplayed());
+
+        //19
+        driver.findElement(By.xpath("//*[text()=' Delete Account']")).click();
+
+        //20
+        driver.findElement(By.xpath("//*[text()='Delete']")).click();
+
 
 
 
