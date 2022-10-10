@@ -5,8 +5,6 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.sql.Driver;
 import java.time.Duration;
 
 public class TestCaseBeforeAfterClass {
@@ -26,6 +24,6 @@ public class TestCaseBeforeAfterClass {
     @AfterClass
     public static void tearDown() throws Exception {
         Thread.sleep(2000);
-        driver.close();
+        //driver.close();
     }
 }

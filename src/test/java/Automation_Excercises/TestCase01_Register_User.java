@@ -130,6 +130,7 @@ public class TestCase01_Register_User {
         driver.findElement(By.xpath("//input[@data-qa='mobile_number']")).sendKeys("+15123445654");
         Thread.sleep(1500);
 
+        //13
         driver.findElement(By.xpath("//button[@data-qa='create-account']")).click();
 
         //14
